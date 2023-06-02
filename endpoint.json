@@ -1,6 +1,6 @@
 {
-    "label": "Sharepoint",
-    "name": "sharepoint",
+    "label": "Microsof Graph",
+    "name": "microsoft-graph",
     "apiVersion": "v1",
     "internal": true,
     "configurationType": "GLOBAL",

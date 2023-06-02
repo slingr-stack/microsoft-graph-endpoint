@@ -1,4 +1,4 @@
-package io.slingr.endpoint.sharepoint;
+package io.slingr.endpoint.microsoft.graph;
 
 import io.slingr.endpoints.Endpoint;
 import io.slingr.endpoints.framework.annotations.*;
@@ -13,9 +13,9 @@ import java.util.Random;
  *
  * <p>Created by lefunes on 01/12/16.
  */
-@SlingrEndpoint(name = "sharepoint")
-public class SharePointEndpoint extends Endpoint {
-    private static final Logger logger = LoggerFactory.getLogger(SharePointEndpoint.class);
+@SlingrEndpoint(name = "microsoft-graph")
+public class MicrosoftGraphEndpoint extends Endpoint {
+    private static final Logger logger = LoggerFactory.getLogger(MicrosoftGraphEndpoint.class);
 
     @ApplicationLogger
     private AppLogs appLogger;
@@ -25,7 +25,7 @@ public class SharePointEndpoint extends Endpoint {
 
     private final Random random = new Random();
 
-    public SharePointEndpoint() {
+    public MicrosoftGraphEndpoint() {
     }
 
 }
