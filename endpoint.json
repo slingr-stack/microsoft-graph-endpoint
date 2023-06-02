@@ -1,0 +1,38 @@
+{
+    "label": "Sharepoint",
+    "name": "sharepoint",
+    "apiVersion": "v1",
+    "internal": true,
+    "configurationType": "GLOBAL",
+    "deployment": {
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ]
+    },
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [],
+    "functions": [],
+    "scripts":[
+        "utils.js"
+    ],
+    "configuration":[
+        {
+            "name": "token",
+            "label": "Token",
+            "description": "Sample token used on endpoint",
+            "type": "text",
+            "required": true
+        },
+        {
+            "name": "webhook",
+            "label": "Web Services URL",
+            "type": "webhookUrl"
+        }
+    ]
+}
