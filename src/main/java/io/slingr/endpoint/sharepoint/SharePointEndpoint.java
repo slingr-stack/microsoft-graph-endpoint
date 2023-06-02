@@ -1,4 +1,4 @@
-package io.slingr.sharepoint.endpoint;
+package io.slingr.endpoint.sharepoint;
 
 import io.slingr.endpoints.Endpoint;
 import io.slingr.endpoints.framework.annotations.*;

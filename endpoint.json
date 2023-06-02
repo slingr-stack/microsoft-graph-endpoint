@@ -19,7 +19,7 @@
     "events": [],
     "functions": [],
     "scripts":[
-        "utils.js"
+        "functions.js"
     ],
     "configuration":[
         {
