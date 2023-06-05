@@ -13,9 +13,9 @@ import java.util.Random;
  *
  * <p>Created by lefunes on 01/12/16.
  */
-@SlingrEndpoint(name = "microsoft-graph")
-public class MicrosoftGraphEndpoint extends Endpoint {
-    private static final Logger logger = LoggerFactory.getLogger(MicrosoftGraphEndpoint.class);
+@SlingrEndpoint(name = "sharepoint")
+public class MicrosoftSharePointEndpoint extends Endpoint {
+    private static final Logger logger = LoggerFactory.getLogger(MicrosoftSharePointEndpoint.class);
 
     @ApplicationLogger
     private AppLogs appLogger;
@@ -25,7 +25,7 @@ public class MicrosoftGraphEndpoint extends Endpoint {
 
     private final Random random = new Random();
 
-    public MicrosoftGraphEndpoint() {
+    public MicrosoftSharePointEndpoint() {
     }
 
 }
