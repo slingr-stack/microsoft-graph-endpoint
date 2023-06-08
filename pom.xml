@@ -34,7 +34,7 @@
         <project.build.s3-wagon.version>3.3</project.build.s3-wagon.version>
         <project.build.shade.version>2.4.1</project.build.shade.version>
         <!-- Other properties -->
-        <build.main-class>io.slingr.endpoints.skeleton.Runner</build.main-class>
+        <build.main-class>io.slingr.endpoint.microsoft.sharepoint.Runner</build.main-class>
     </properties>
 
     <dependencies>
