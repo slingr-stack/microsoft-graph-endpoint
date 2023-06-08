@@ -4,3 +4,4 @@ target/
 service_proxy.properties
 /bin/
 service_local.properties
+/src/main/resources/endpoint_local.properties
