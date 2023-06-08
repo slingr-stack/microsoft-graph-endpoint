@@ -99,14 +99,14 @@
         {
             "name": "oauthCallback",
             "label": "OAuth callback",
-            "description": "The OAuth callback to configure in your GitHub App",
+            "description": "The OAuth callback to configure in your SharePoint App",
             "type": "label",
             "value": "config.WEBHOOK_URL+'/authCallback'"
         },
         {
             "name": "webhooksUrl",
             "label": "Webhooks URL",
-            "description": "The URL to configure in webhooks of your GitHub App",
+            "description": "The URL to configure in webhooks of your SharePoint App",
             "type": "label",
             "value": "@config.WEBHOOK_URL"
         }
